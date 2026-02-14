@@ -13,14 +13,14 @@ pipeline {
         stage('Run Training') {
             steps {
                 echo "Running model training..."
-                sh 'python3 train.py'
+                sh 'python3 scripts/train.py'
             }
         }
 
         stage('Print Student Details') {
             steps {
-                echo "Student Name: Sabbi Prathima Sindhu Varshini"
-                echo "Roll Number: 2022BCS0102"
+                echo "Student Name: Allu Suma Sree"
+                echo "Roll Number: 2022BCS0177"
             }
         }
     }
